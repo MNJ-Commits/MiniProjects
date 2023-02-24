@@ -26,24 +26,24 @@ Note: Each create & update module must have front-end validations.
 
 
 
-# Tools Used for the task
+## Tools Used for the task
 
-#### Framework
+### Framework
 react
 react-native @0.71.3
 
-#### State Mangement
+### State Mangement
 reduxjs/toolkit
 react-redux
 react-native-async-storage/async-storage
 
-#### Screens Navigation
+### Screens Navigation
 react-native-screens
 react-native-safe-area-context
 react-navigation/native
 react-navigation/native-stack
 
-#### React Forms
+### React Forms
 react-hook-form
 hookform/resolvers
 react-native-dropdown-picker
