@@ -56,6 +56,7 @@ Yup
 
 # Commands to run project
 cd json-server
+
 json-server --watch db.json -m ../node_modules/json-server-auth
 
 Run the below command to access localhost or 127.0.0.1 or your computer's ip
