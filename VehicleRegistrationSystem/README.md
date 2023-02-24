@@ -1,6 +1,6 @@
 # VehicleRegisterationSystem
 
-## As simple project for vechile registeration using following steps:
+## A simple react-native project for vechile registeration using following steps:
 
 ### Step #1:
 
