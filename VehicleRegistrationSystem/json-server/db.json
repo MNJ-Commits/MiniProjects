@@ -1,19 +1,22 @@
 {
-  "posts": [
+  "users": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "email": "maliknoumanjavaid@gmail.com",
+      "password": "$2a$10$DuPJ.GErJt8I9ZmeLBpks.7MTEB26nDEq8Fwm2.ZZ/5IFbN2YNVcW",
+      "firstName": "Muhammad",
+      "lastName": "Nouman",
+      "id": 1
     }
   ],
-  "comments": [
+  "vehicles": [
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "vehicleType": "car",
+      "color": "black",
+      "model": "prius",
+      "make": "corola",
+      "year": "2003",
+      "reg_no": "246823",
+      "id": 2
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
