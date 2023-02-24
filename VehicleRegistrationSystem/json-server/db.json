@@ -11,12 +11,12 @@
   "vehicles": [
     {
       "vehicleType": "car",
-      "color": "black",
-      "model": "prius",
-      "make": "corola",
-      "year": "2003",
-      "reg_no": "246823",
-      "id": 2
+      "color": "grey",
+      "model": "civic",
+      "make": "honda",
+      "year": "2009",
+      "reg_no": "123456",
+      "id": 3
     }
   ]
 }

@@ -63,9 +63,10 @@ const SignUpScreen = ()=> {
       console.log('res: ', res);
       if(res=="Email already exists")
         Alert.alert(res)
-      else{
-        reset()
-        navigation.goBack()
+        else{
+          Alert.alert('Account created successfully')
+          reset()
+          navigation.goBack()
       }
     })
     .catch( (error:any) =>{ console.log('Something went wrong: ', error ) } )
