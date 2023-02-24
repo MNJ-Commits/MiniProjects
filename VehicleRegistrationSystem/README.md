@@ -32,9 +32,11 @@ Note: Each create & update module must have front-end validations.
 react
 react-native @0.71.3
 
-### State Mangement
+### State Mangement 
 reduxjs/toolkit
 react-redux
+
+### Local Storage
 react-native-async-storage/async-storage
 
 ### Screens Navigation
