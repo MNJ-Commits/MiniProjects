@@ -58,8 +58,8 @@ const LoginScreen = ()=> {
 
 
   return (
-    <SafeAreaView style={[styles.safeArea]}>
-      <ScrollView contentContainerStyle={[styles.container]} >
+    <SafeAreaView style={[styles.container]}>
+      <ScrollView contentContainerStyle={[styles.scrollView]} >
     
         {/* App Title */}
         <Text style={styles.title } > Vehicle Registration System </Text>          
@@ -116,8 +116,8 @@ const LoginScreen = ()=> {
 
 // StyleSheet
 const styles = StyleSheet.create({
-  safeArea:{flex:1, backgroundColor:'white' },
-  container:{ flexGrow:1, justifyContent:'center', rowGap:10, padding: 20 },
+  container:{flex:1, backgroundColor:'white' },
+  scrollView:{ flexGrow:1, justifyContent:'center', rowGap:10, padding: 20 },
   title:{ fontSize:30, fontWeight:'bold', color:'black', textAlign:'center', paddingBottom:50 },
   subTitle:{fontSize:20, fontWeight:'bold', color:'black', textAlign:'left', paddingBottom:20 },
   inputFieldWrapper:{ height: 50, marginTop: 5, backgroundColor: 'white', borderRadius: 5, justifyContent:'center'},

@@ -80,7 +80,7 @@ const HomeScreen = ()=> {
   };
 
   return (
-    <SafeAreaView style={{flex:1, backgroundColor:'white' }}>
+    <SafeAreaView style={[styles.container]}>
       {/* Session Logout */}
       <AppButton
         text="Logout"
@@ -93,8 +93,8 @@ const HomeScreen = ()=> {
         }}
       />
 
-      <ScrollView contentContainerStyle={{ flexGrow:1, rowGap:10, padding: 10 }} >
-    
+
+      <ScrollView contentContainerStyle={[styles.scrollView]} >
         <Text style={[styles.title]} > Dashboard </Text>          
         <View style={{ flexDirection:'row', alignItems:'center', marginBottom:20}} >
           <Text style={{fontSize:18, fontWeight:'bold', color:'black', }} > Number of vehicles registered: </Text>          
@@ -168,6 +168,8 @@ const HomeScreen = ()=> {
 }
 
 const styles = StyleSheet.create({
+  container:{flex:1, backgroundColor:'white' },
+  scrollView:{ flexGrow:1, rowGap:10, padding: 10 },
   title:{ fontSize:30, fontWeight:'bold', color:'black', textAlign:'center', paddingBottom:50 },
   labels:{fontSize:14, fontWeight:'bold', color:'black', width:'25%' },
   entries:{fontSize:14, fontWeight:'bold', width:'25%' },

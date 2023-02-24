@@ -136,8 +136,8 @@ const RegisterVechileScreen = ({navigation, route }:any)=> {
   },[vehicleId])
 
   return (
-    <SafeAreaView style={{flex:1, backgroundColor:'white' }}>
-      <ScrollView contentContainerStyle={{ flexGrow:1, justifyContent:'center', rowGap:10, padding: 20 }} >
+    <SafeAreaView style={[styles.container]}>
+      <ScrollView contentContainerStyle={[styles.scrollView]} >
     
         <Text style={{fontSize:30, fontWeight:'bold', color:'black', textAlign:'center', paddingBottom:50 }} > Vehicle Registration </Text>          
         {/* Text Fields */}
@@ -249,6 +249,8 @@ const RegisterVechileScreen = ({navigation, route }:any)=> {
 }
 
 const styles = StyleSheet.create({
+  container:{flex:1, backgroundColor:'white' },
+  scrollView:{ flexGrow:1, justifyContent:'center', rowGap:10, padding: 20 },
   dropDown: { borderColor: 'black', backgroundColor: '#F4F4F4', borderWidth: 1, marginTop: 5, marginBottom: 10 },
   textInputField:{ height: 50, marginTop: 5, backgroundColor: 'white', borderRadius: 5, justifyContent:'center' },
   btn:{ backgroundColor: '#DC2929', height: 40, width: '47%', marginTop:50, alignSelf: "flex-end" }
