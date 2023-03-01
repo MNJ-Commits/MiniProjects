@@ -52,3 +52,19 @@ react-native-dropdown-picker
 
 #### Form Validations
 Yup
+
+
+
+# Commands to run project
+1. How to run the node server:
+ - cd VehicleRegistrationSystem/json-server
+ - json-server --watch db.json -m ../node_modules/json-server-auth
+
+
+2. Run the below command to access localhost or 127.0.0.1 or your computer's ip:
+
+	adb -s <device_name> reverse tcp:backend_port tcp:backend_port
+	
+Example:
+
+	adb -s emulator-5554 reverse tcp:3000 tcp:3000
