@@ -1,4 +1,4 @@
-# Bookstore Application
+# Book Store Application
 Welcome to the Bookstore Application! This application allows users to browse and shop for books and magazines. The user can add items to their cart, edit the cart, and have a seamless experience through the integration of React-Redux and state management libraries.
 
 ##Table of Contents
