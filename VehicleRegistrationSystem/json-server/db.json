@@ -1,11 +1,11 @@
 {
   "users": [
     {
-      "email": "maliknoumanjavaid@gmail.com",
-      "password": "$2a$10$DuPJ.GErJt8I9ZmeLBpks.7MTEB26nDEq8Fwm2.ZZ/5IFbN2YNVcW",
-      "firstName": "Muhammad",
-      "lastName": "Nouman",
-      "id": 1
+      "email": "testAccount@gmail.com",
+      "password": "$2a$10$08jgBa7mcLBKWgDvPISeQOlx/OXpGZQt2rhnVcOAF1fpMstHAnJiS",
+      "firstName": "test",
+      "lastName": "account",
+      "id": 2
     }
   ],
   "vehicles": [

@@ -47,6 +47,8 @@ const SignUpScreen = ()=> {
 
   // Handle Signup
   const onSubmit = handleSubmit(async values => {
+    console.log("values: ", values);
+    
     Keyboard.dismiss();    
     const response = await fetch('http://localhost:3000/users', {
       method: 'POST',

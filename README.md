@@ -58,7 +58,7 @@ Yup
 # Commands to run project
 1. How to run the node server:
  - cd VehicleRegistrationSystem/json-server
- - json-server --watch db.json -m ../node_modules/json-server-auth
+ - npx json-server --watch db.json -m ../node_modules/json-server-auth
 
 
 2. Run the below command to access localhost or 127.0.0.1 or your computer's ip:
