@@ -19,16 +19,16 @@ git clone https://github.com/MNJ-Commits/MiniProjects/tree/book-store
 ### 2. Navigate to the project directory:
 cd bookstore
 
-###3. Install dependencies:
+### 3. Install dependencies:
 npm install
 
 ## Usage
 
-###1. Start the development server:
+### 1. Start the development server:
 npm start
 
 ## Features
-- Two tabs for Books and Magazines listings.
+- Two tabs for Books and Magazine listings.
 - Users can add items to the cart from each listing.
 - Seamless cart management with React-Redux.
 - Users can edit and update their cart items.
