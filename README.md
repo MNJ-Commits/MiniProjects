@@ -1,6 +1,6 @@
 # VehicleRegisterationSystem
 
-## A simple react-native project for vechile registeration using following steps:
+## A simple react-native project for vehicle registration using the following steps:
 
 ### Step #1:
 
@@ -14,7 +14,7 @@ On the front end, there should be a sign-in & sign-up page. Retain the AUTH data
 
 ### Step #3:
 
-On login, there should be a simple dashboard showing the number of registered cars in your system.
+On login, a simple dashboard should show the number of registered cars in your system.
 
 
 ### Step #4:
@@ -32,7 +32,7 @@ Note: Each create & update module must have front-end validations.
 react
 react-native @0.71.3
 
-### State Mangement 
+### State Management 
 reduxjs/toolkit
 react-redux
 
@@ -55,7 +55,7 @@ Yup
 
 
 
-# Commands to run project
+# Commands to run the project
 1. How to run the node server:
  - cd VehicleRegistrationSystem/json-server
  - npx json-server --watch db.json -m ../node_modules/json-server-auth
@@ -68,3 +68,9 @@ Yup
 Example:
 
 	adb -s emulator-5554 reverse tcp:3000 tcp:3000
+
+
+ # Demo Video
+https://github.com/user-attachments/assets/df5c129b-d013-437d-a1a1-97fd405b5357
+
+
