@@ -20,8 +20,7 @@ The Book Store is a React Native application showcasing a simple book catalog. I
 4. Integration with third-party APIs for book data retrieval
 5. Navigate to the BookStore directory to explore the source code and related documentation.
 
-### C. Submission Form
-# User Application Form
+### C. User Application Form
 This simple User Application Form project provides an interactive form for users to fill in their personal details. It includes several components and features to enhance the user experience, such as toggle buttons, modals, and interactive feedback during the form-filling process.
  
 ### D. To Be Continued ...
